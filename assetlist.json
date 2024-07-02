@@ -748,6 +748,28 @@
         "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/GOKU.png"
       },
       "type_asset": "erc20"
+    },
+    {
+      "name": "Bridged Wrapped Ether (Stargate)",
+      "description": "Wrapped Ether from Stargate.",
+      "symbol": "WETH",
+      "base": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+      "display": "WETH",
+      "denom_units": [
+          {
+              "denom": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+              "exponent": 0
+          },
+          {
+              "denom": "WETH",
+              "exponent": 18
+          }
+      ],
+      "images": {
+          "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/BridgedWrappedEther(Stargate).png"
+      },
+      "coingecko_id": "bridged-wrapped-ether-stargate",
+      "type_asset": "erc20"
     }
   ],
   "atlantic-2": [
@@ -943,28 +965,6 @@
         "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/TTUNA-XSeiBissa.png"
       },
       "type_asset": "sdk.coin"
-    },
-    {
-      "name": "Bridged Wrapped Ether (Stargate)",
-      "description": "Wrapped Ether from Stargate.",
-      "symbol": "WETH",
-      "base": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
-      "display": "WETH",
-      "denom_units": [
-          {
-              "denom": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
-              "exponent": 0
-          },
-          {
-              "denom": "WETH",
-              "exponent": 18
-          }
-      ],
-      "images": {
-          "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/BridgedWrappedEther(Stargate).png"
-      },
-      "coingecko_id": "bridged-wrapped-ether-stargate",
-      "type_asset": "erc20"
     }
   ],
   "sei-devnet-3": [
